@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Exercise</title>
+  <style>
+    /* 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+    */
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 60%;
+      height: 60%;
+      display: grid;
+      grid-template-columns: 16% 16% 24% 10% 19% 3%;
+      grid-template-rows: 13.3% 13.3% 29% 37%;
+      gap: 2.4%;
+      background-color: #000;  
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .white {
+        background-color: #F0F1EC;
+
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
+
+    .blue {
+        background-color: #0000ff;
+    }
+
+    .black {
+        background-color: #232629;
+    }
+
+    .item1 {
+        grid-row: span 2;
+    }
+
+    .item2 {
+        grid-row: span 2;
+
+    }
+
+    .item9 {
+        grid-row: span 2;
+        
+    }
+    .item10 {
+        grid-row: span 2;
+        
+    }
+    .item11 {
+        grid-row: span 2;
+        
+    }
+    .item12 {
+        
+    }
+    .item13 {
+        grid-area: 3 / 3 / 5 / 5;
+    }
+
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="red item1"></div>
+    <div class="white item2"></div>
+    <div class="yellow item3"></div>
+    <div class="white item4"></div>
+    <div class="red item5"></div>
+    <div class="yellow item6"></div>
+    <div class="blue item7"></div>
+    <div class="black item8"></div>
+    <div class="white item9"></div>
+    <div class="blue item10"></div>
+    <div class="blue item11"></div>
+    <div class="yellow item12"></div>
+    <div class="red item13"></div>
+    <div class="white item14"></div>
+    <div class="yellow item15"></div>
+    <div class="red item16"></div>
+  </div>
+</body>
+
+</html>
